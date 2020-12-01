@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/**************************************************/
+/******************* NAV-BAR **********************/
+/**************************************************/
+
+nav.header {
+  /* border: 1px solid #aaa; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  z-index: 100;
+  box-shadow: 2px 2px 2px #8b8b8b;
+}
+
+.logo {
+  /* border: 1px solid #aaa; */
+  margin-left: 6px;
+}
+.link-btns {
+  /* border: 1px solid #aaa; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 230px;
+  margin-right: 6px;
+}
+
+button.nav-link {
+  border: none;
+  background-color: #1ab57a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 3px 5px;
+  transition: 0.2s;
+  outline: none;
+}
+
+button.nav-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.a-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+/**************************************************/
+/**************** MAIN SECTION ********************/
+/**************************************************/
+
+.main-container {
+  /* border: 1px solid #aaa; */
+  background-color: #fff;
+  margin: 0 auto 0;
+  width: 90vw;
+  /* height: calc(100vh - 68px); */
+  padding: 40px 0 30px;
+}
+.current-page {
+  /* border: 1px solid #aaa; */
+  padding-left: 10px;
+  color: #aaa;
+}
+.main-content {
+  /* border: 1px solid #aaa; */
+  height: calc(100vh - 88px);
+}
+h1.main-title {
+  /* border: 1px solid #aaa; */
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+.bottom-filler {
+  height: 60px;
+}
+
+/**************************************************/
+/******************* FOOTER ***********************/
+/**************************************************/
+
+.footer {
+  /* border: 1px solid #aaa; */
+  position: fixed;
+  bottom: 0;
+  height: 36px;
+  width: calc(100vw - 0.01px);
+  background-color: #1ab57a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.footer-left {
+  margin-left: 16px;
+}
+
+.footer-right {
+  margin-right: 16px;
+}
