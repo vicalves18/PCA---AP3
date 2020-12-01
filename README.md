@@ -8,4 +8,4 @@ Prática Curricular Articuladora - PCA  de Introdução às Aplicações Web
 ###
 Site sobre sustentabilidade, automóveis elétricos e energias renováveis.
 ###
-! [] (assets / gif.gif)
+![](/gif.gif)
